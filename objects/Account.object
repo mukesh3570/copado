@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>aaan__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
+        <fullName>Out_of_Business__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>aaan</label>
-        <length>100</length>
+        <label>Out of Business</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>add_followers__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>add followers</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Accounts1</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
       <fields>
         <fullName>abcde__c</fullName>

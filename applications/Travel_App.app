@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>travel</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Travel App</label>
+    <navType>Standard</navType>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Department__c</tabs>
+    <tabs>Travel_Approval__c</tabs>
+    <tabs>Battle_Station__c</tabs>
+    <tabs>Resource__c</tabs>
+    <tabs>Supply__c</tabs>
+    <tabs>items_google_drive__x</tabs>
+    <tabs>Tableau_Dashboard</tabs>
+    <tabs>ContractDocument__c</tabs>
+    <tabs>abc__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Travel_App_UtilityBar</utilityBar>
+</CustomApplication>
