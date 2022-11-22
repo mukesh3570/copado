@@ -12,4 +12,16 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+      <fields>
+        <fullName>abcde__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>aaan</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
